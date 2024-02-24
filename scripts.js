@@ -6,6 +6,6 @@ function fullscreen(e){
 addEventListener("keydown",function(e){
   if (e.key === "Escape") {
     let iframe = document.querySelector("iframe")
-    iframe.classlist.remove("fullscreen")
+    iframe.classList.remove("fullscreen")
   }
 })
